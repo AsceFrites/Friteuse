@@ -71,6 +71,7 @@ bot.on('message', message => {
                 .setDescription("**Voici votre Hamburger frite !")
                 .setImage("https://cdn.discordapp.com/attachments/513815805331374082/516613223550550017/1200-L-oui-le-burger-frites-est-bon-pour-la-sante-des-sportifs.png")
                 .setColor("RANDOM")
+                message.channel.sendEmbed(embedfr5)
             }
 
             if(message.content === "Frite Fricadelle"){
@@ -78,6 +79,7 @@ bot.on('message', message => {
                 .setDescription("**Voici notre spécialité, les frites fricadelle !")
                 .setImage("https://cdn.discordapp.com/attachments/513815805331374082/516612501492858880/5829966284_c2ebc4b34f_b.png")
                 .setColor("RANDOM")
+                message.channel.sendEmbed(embedfr5)
             }
 
             if(message.content === "Frites mayonnaise"){
