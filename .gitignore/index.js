@@ -41,7 +41,7 @@ bot.on('message', message => {
         
 
         if(message.content === "Frites"){//FRITES
-            return message.reply("Merci de mentionner une frite avec une sauce ou un accompagnement ! \n Liste des sauces avec la commande *Sauces frites* \n Liste des accompagnements avec la commande *Accompagnement frites*")
+            return message.reply("Merci de mentionner une frite avec une sauce ou un accompagnement ! \n Liste des sauces avec la commande ``Sauces frites`` \n Liste des accompagnements avec la commande ``Accompagnement frites``")
         }else{
              if(message.content === "Sauces frites"){
                 var embedfr = new Discord.RichEmbed()
@@ -60,7 +60,7 @@ bot.on('message', message => {
             if(message.content === "Accompagnement frites"){
                 var embedfr = new Discord.RichEmbed()
                 .setDescription("**Voici la liste des accompagnements pour vos frites !**")
-                .addField("Frites Fricadelle : ", "*Frites fricadelle* ")
+                .addField("Frites Fricadelle : ", "*Frites fricadelles* ")
                 .addField("Frites avec Hamburger : ", "*FH*")
                 .setColor("RANDOM")
                message.channel.sendEmbed(embedfr);
@@ -74,7 +74,7 @@ bot.on('message', message => {
                 message.channel.sendEmbed(embedfr5)
             }
 
-            if(message.content === "Frites Fricadelle"){
+            if(message.content === "Frites fricadelles"){
                 var embedfr6 = new Discord.RichEmbed()
                 .setDescription("**Voici notre spécialité, les frites fricadelle !**")
                 .setImage("https://cdn.discordapp.com/attachments/513815805331374082/516612501492858880/5829966284_c2ebc4b34f_b.png")
