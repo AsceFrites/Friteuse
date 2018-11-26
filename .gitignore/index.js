@@ -230,7 +230,7 @@ bot.on('message', message => {
                   message.channel.sendEmbed(embedfr2);
                  }
 
-                 if(message.content === "PHAWAI"){
+                 if(message.content === "PHawai"){
                     var embedfr2 = new Discord.RichEmbed()
                     .setDescription("**Et voici l'hawaïenne ! !**")
                     .setImage("https://cdn.discordapp.com/attachments/513815805331374082/516605659094056960/i71515-pizza-hawaienne.png")
@@ -238,7 +238,7 @@ bot.on('message', message => {
                   message.channel.sendEmbed(embedfr2);
                  }
 
-                 if(message.content === "PREINE"){
+                 if(message.content === "PReine"){
                     var embedfr2 = new Discord.RichEmbed()
                     .setDescription("**Voici donc votre pizza reine !**")
                     .setImage("https://cdn.discordapp.com/attachments/513815805331374082/516605848936644611/pizza-reine-800x600.png")
